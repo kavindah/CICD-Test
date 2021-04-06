@@ -32,7 +32,7 @@ namespace {
 
         public function test()
         {
-            echo "test";
+            return echo "test";
         }
     }
 }

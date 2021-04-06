@@ -16,7 +16,8 @@ jobs:
 
     steps:
     - uses: actions/checkout@v2
-
+    - name: vendor expose
+      run: composer vendor-expose
     - name: Install dependencies
       uses: php-actions/composer@v5
       with: 
